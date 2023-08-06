@@ -1,0 +1,23 @@
+{
+  "name": "jntm-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "jntm": "bin/index.js",
+    "jntm-add": "bin/add.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^2.4.0",
+    "commander": "^11.0.0",
+    "download-git-repo": "^3.0.0",
+    "inquirer": "^6.0.0",
+    "ora": "^5.0.0"
+  }
+}
